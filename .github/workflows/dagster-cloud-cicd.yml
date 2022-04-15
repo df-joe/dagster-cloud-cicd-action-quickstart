@@ -54,5 +54,5 @@ jobs:
         with:
           location-file: locations.yaml
           # Insert your Dagster Cloud Dagit URL here
-          dagit-url: https://elementl.dogfood.dagster.cloud/dev
+          dagit-url: https://datafoundation.dagster.cloud/datafoundation
           api-token: ${{ secrets.DAGSTER_AGENT_TOKEN }}
